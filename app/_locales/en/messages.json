@@ -1317,7 +1317,7 @@
     "description": "$1 represents `needHelpLinkText`, the text which goes in the help link"
   },
   "needHelpLinkText": {
-    "message": "MetaMask Support"
+    "message": "XDCPay Support"
   },
   "needImportFile": {
     "message": "You must select a file to import.",

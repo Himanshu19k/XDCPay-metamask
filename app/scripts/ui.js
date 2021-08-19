@@ -58,7 +58,7 @@ async function start() {
       const { metamask: { completedOnboarding } = {} } = state;
 
       if (!completedOnboarding && windowType !== ENVIRONMENT_TYPE_FULLSCREEN) {
-        global.platform.openExtensionInBrowser();
+        global.platform.openExtension();
       }
     });
   }
