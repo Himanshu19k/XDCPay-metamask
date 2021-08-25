@@ -472,7 +472,7 @@
     "message": "Create"
   },
   "createAWallet": {
-    "message": "Create a Wallet"
+    "message": "Create"
   },
   "createAccount": {
     "message": "Create Account"
@@ -992,11 +992,11 @@
   "getStarted": {
     "message": "Get Started"
   },
+  "accept": {
+    "message": "Accept"
+  },
   "goerli": {
     "message": "Goerli Test Network"
-  },
-  "happyToSeeYou": {
-    "message": "We’re happy to see you."
   },
   "hardware": {
     "message": "Hardware"
@@ -1059,6 +1059,9 @@
   "importAccountText": {
     "message": "or $1",
     "description": "$1 represents the text from `importAccountLinkText` as a link"
+  },
+  "importExistingDen": {
+    "message": "Import Existing Den"
   },
   "importTokenQuestion": {
     "message": "Import token?"
@@ -1249,9 +1252,7 @@
   "metaMaskConnectStatusParagraphTwo": {
     "message": "The connection status button shows if the website you’re visiting is connected to your currently selected account."
   },
-  "metamaskDescription": {
-    "message": "Connecting you to Ethereum and the Decentralized Web."
-  },
+  
   "metamaskSwapsOfflineDescription": {
     "message": "MetaMask Swaps is undergoing maintenance. Please check back later."
   },
@@ -1391,7 +1392,13 @@
     "message": "New password (min 8 chars)"
   },
   "newToMetaMask": {
-    "message": "New to MetaMask?"
+    "message": "New to Metamask"
+  },
+  "encryptNewDen": {
+    "message": "Encrypt your new DEN"
+  },
+  "yourDenIsYourPassword": {
+    "message": "Your DEN is your password-encrypted Storage within XDC Pay"
   },
   "newTotal": {
     "message": "New Total"
@@ -2706,8 +2713,8 @@
     "message": "We noticed that the current website tried to use the removed window.web3 API. If the site appears to be broken, please click $1 for more information.",
     "description": "$1 is a clickable link."
   },
-  "welcome": {
-    "message": "Welcome to MetaMask"
+  "termsOfUse": {
+    "message": "Terms of Use"
   },
   "welcomeBack": {
     "message": "Welcome Back!"

@@ -1,78 +1,186 @@
 .select-action {
-  .app-header__logo-container {
-    width: 742px;
-    margin-top: 3%;
-  }
-
-  &__body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  &__body-header {
-    @include H3;
-
-    text-align: center;
-    margin-top: 65px;
-    color: black;
-  }
-
-  &__select-buttons {
+  .XDC-logo {
     display: flex;
     flex-direction: row;
-    margin-top: 40px;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 58px;
   }
 
-  &__select-button {
+  .den-container {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-    width: 388px;
-    height: 278px;
-    border: 1px solid #d8d8d8;
-    box-sizing: border-box;
-    border-radius: 10px;
-    margin-left: 22px;
+    flex-direction: row;
+    margin-top: 48px;
+    justify-content: center;
+    .encrypt-den {
+      font-weight: bold;
+    }
 
-    .first-time-flow__button {
-      max-width: 221px;
-      height: 44px;
+    .tooltip {
+      position: relative;
+      display: inline-block;
+    }
+    
+    .tooltip .tooltiptext {
+      visibility: hidden;
+      width: 215px;
+      height: 40px;
+      background-color: #F6F4F4;
+      color: #2a2a2a;
+      text-align: center;
+      border-radius: 6px;
+      padding: 5px 0;
+      position: absolute;
+      z-index: 1;
+      top: 170%;
+      left: -130%;
+      margin-left: -155px;
+      font-size: 12px;
+      box-shadow: 0px 3px 6px #00000029;
+      padding: 5px 7px 5px 7px;
+    }
+    
+    .tooltip .tooltiptext::after {
+      content: "";
+      position: absolute;
+      bottom: 100%;
+      left: 90%;
+      margin-left: -5px;
+      border-width: 8px;
+      border-style: solid;
+      border-color: transparent transparent #F6F4F4 transparent;
+    }
+    
+    .tooltip:hover .tooltiptext {
+      visibility: visible;
+    }
+
+    .fa {
+      font-weight: lighter;
+      color: #9fa9ba;
+      margin-left: 5px;
+      margin-top: 3px;
     }
   }
 
-  &__button-symbol {
-    color: #c4c4c4;
-    margin-top: 41px;
-  }
-
-  &__button-content {
+  .password {
     display: flex;
     flex-direction: column;
+    margin-top: 15px;
     justify-content: center;
-    align-items: center;
-    height: 144px;
+
+    .pwd {
+      width: 265px;
+      height: 40px;
+      border-radius: 4px;
+      opacity: 1;
+      border: 2px solid #c7cdd8;
+      ::placeholder {
+        color: #848484;
+        font: 12px;
+      }
+    }
+    .confirm-pwd {
+      margin-top: 15px;
+      width: 265px;
+      height: 40px;
+      opacity: 1;
+      border-radius: 4px;
+      border: 2px solid #c7cdd8;
+      ::placeholder {
+        color: #848484;
+        font: 12px;
+      }
+    }
   }
-
-  &__button-text-big {
-    @include H4;
-
-    color: #000;
-    margin-top: 12px;
+  .create-wallet-btn {
+    margin-top: 29px;
+    width: 265px;
+    height: 40px;
+    background-color: #03be46;
+    border: none;
+  }
+  .import-existing-den {
     text-align: center;
+    color: #2149B9;
+    font-size: 14px;
+    margin-top: 74px;
+    cursor: pointer;
   }
+  // .app-header__logo-container {
+  //   width: 742px;
+  //   margin-top: 3%;
+  // }
 
-  &__button-text-small {
-    @include H6;
+  // &__body {
+  //   display: flex;
+  //   flex-direction: column;
+  //   align-items: center;
+  // }
 
-    color: #7a7a7b;
-    margin-top: 10px;
-    text-align: center;
-  }
+  // &__body-header {
+  //   @include H3;
 
-  button {
-    font-weight: 500;
-    width: 221px;
-  }
+  //   text-align: center;
+  //   margin-top: 65px;
+  //   color: black;
+  // }
+
+  // &__select-buttons {
+  //   display: flex;
+  //   flex-direction: row;
+  //   margin-top: 40px;
+  // }
+
+  // &__select-button {
+  //   display: flex;
+  //   flex-direction: column;
+  //   align-items: center;
+  //   justify-content: space-evenly;
+  //   width: 388px;
+  //   height: 278px;
+  //   border: 1px solid #d8d8d8;
+  //   box-sizing: border-box;
+  //   border-radius: 10px;
+  //   margin-left: 22px;
+
+  //   .first-time-flow__button {
+  //     max-width: 221px;
+  //     height: 44px;
+  //   }
+  // }
+
+  // &__button-symbol {
+  //   color: #c4c4c4;
+  //   margin-top: 41px;
+  // }
+
+  // &__button-content {
+  //   display: flex;
+  //   flex-direction: column;
+  //   justify-content: center;
+  //   align-items: center;
+  //   height: 144px;
+  // }
+
+  // &__button-text-big {
+  //   @include H4;
+
+  //   color: #000;
+  //   margin-top: 12px;
+  //   text-align: center;
+  // }
+
+  // &__button-text-small {
+  //   @include H6;
+
+  //   color: #7a7a7b;
+  //   margin-top: 10px;
+  //   text-align: center;
+  // }
+
+  // button {
+  //   font-weight: 500;
+  //   width: 221px;
+  // }
 }

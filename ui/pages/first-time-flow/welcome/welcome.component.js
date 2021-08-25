@@ -45,25 +45,43 @@ export default class Welcome extends PureComponent {
     return (
       <div className="welcome-page__wrapper">
         <div className="welcome-page">
-          <Mascot
+          {/* <Mascot
             animationEventEmitter={this.animationEventEmitter}
             width="125"
             height="125"
-          />
-          <div className="welcome-page__header">{t('welcome')}</div>
+          /> */}
+          <div className="XDC-logo">
+            <img src="D:\LwHz\HXdc-metamask\XDCPay-metamask\app\images\XDCPay.svg"></img>
+          </div>
+          <div className="welcome-page__header">{t('termsOfUse')}</div>
           <div className="welcome-page__description">
-            <div>{t('metamaskDescription')}</div>
-            <div>{t('happyToSeeYou')}</div>
+            <p className="welcome-page__description__terms-of-use">
+              Dear <span className="bold-xdc">XDC</span>Pay Users,<br /><br />
+
+              <span className="bold-xdc">XDC</span>Pay is a beta software.<br /><br />
+
+              When you log in to <span className="bold-xdc">XDC</span>Pay, your current account’s address is visible
+               to every new site you visit. This can be used to look up your account
+               balances of XDC and other tokens.<br /><br />
+               
+              For your privacy, for now, please sign out of XDC Pay when you’re done
+               using a site.<br /><br />
+                
+              Related Links<br /><br />
+
+              <a href="https://www.xinfin.org/disclaimer.php" target="_blank"><span className="terms-link">Terms of Service</span></a>
+            </p>
           </div>
           <Button
             type="primary"
             className="first-time-flow__button"
             onClick={this.handleContinue}
           >
-            {t('getStarted')}
+            {t('accept')}
           </Button>
         </div>
       </div>
     );
   }
 }
+

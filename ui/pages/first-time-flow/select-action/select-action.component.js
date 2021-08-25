@@ -39,9 +39,45 @@ export default class SelectAction extends PureComponent {
 
     return (
       <div className="select-action">
-        <MetaFoxLogo />
+        <div className="XDC-logo">
+          <img src="D:\LwHz\HXdc-metamask\XDCPay-metamask\app\images\XDCPay.svg"></img>
+        </div>
+        <div className="den-container">
+          <div className="encrypt-den">{t('encryptNewDen')}</div>
+          <div class="tooltip">
+          <i className="fa fa-question-circle"></i>
+          <span class="tooltiptext">{t('yourDenIsYourPassword')}</span>
+          </div>
+        </div>
+        <div className="password">
+          <div>
+            <input
+              className="pwd"
+              type="password"
+              placeholder="New Password (min 8 chars)"
+            ></input>
+          </div>
+          <div>
+            <input
+              className="confirm-pwd"
+              type="password"
+              placeholder="Confirm Password"
+            ></input>
+          </div>
+        </div>
+        <div>
+          <Button
+            type="primary"
+            className="create-wallet-btn"
+            onClick={this.handleCreate}
+          >
+            {t('createAWallet')}
+          </Button>
+        </div>
+        <div className="import-existing-den">{t('importExistingDen')}</div>
+        {/* <MetaFoxLogo /> */}
 
-        <div className="select-action__wrapper">
+        {/* <div className="select-action__wrapper">
           <div className="select-action__body">
             <div className="select-action__body-header">
               {t('newToMetaMask')}
@@ -89,7 +125,7 @@ export default class SelectAction extends PureComponent {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     );
   }
