@@ -81,7 +81,7 @@ export const approve = () => (
     subtitle={text('subtitle', 'Sept 20 · oxuniverse.com')}
     rightContent={
       <Currencies
-        primary={text('primaryCurrency', '- 0 ETH')}
+        primary={text('primaryCurrency', '- 0 XDC')}
         secondary={text('secondaryCurrency', '- $0.00 USD')}
       />
     }

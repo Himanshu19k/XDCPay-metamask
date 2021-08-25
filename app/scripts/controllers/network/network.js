@@ -40,14 +40,16 @@ if (process.env.IN_TEST === 'true') {
     chainId: '0x539',
     nickname: 'Localhost 8545',
   };
-} else if (process.env.METAMASK_DEBUG || env === 'test') {
-  defaultProviderConfigOpts = { type: RINKEBY, chainId: RINKEBY_CHAIN_ID };
-} else {
+}
+// else if (process.env.METAMASK_DEBUG || env === 'test') {
+//   defaultProviderConfigOpts = { type: RINKEBY, chainId: RINKEBY_CHAIN_ID };
+// }
+else {
   defaultProviderConfigOpts = { type: MAINNET, chainId: MAINNET_CHAIN_ID };
 }
 
 const defaultProviderConfig = {
-  ticker: 'ETH',
+  ticker: 'XDC',
   ...defaultProviderConfigOpts,
 };
 

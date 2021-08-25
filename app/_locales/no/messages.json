@@ -206,8 +206,8 @@
   "connectingToRinkeby": {
     "message": "Kobler til Rinkeby Test Network "
   },
-  "connectingToRopsten": {
-    "message": "Kobler til Ropsten testnettverk"
+  "connectingToTESTNET": {
+    "message": "Kobler til TESTNET testnettverk"
   },
   "continueToWyre": {
     "message": "Fortsett til Wyre "

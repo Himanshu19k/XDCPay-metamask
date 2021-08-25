@@ -4,7 +4,7 @@ import {
   KOVAN_CHAIN_ID,
   MAINNET_CHAIN_ID,
   RINKEBY_CHAIN_ID,
-  ROPSTEN_CHAIN_ID,
+  TESTNET_CHAIN_ID,
 } from '../../../shared/constants/network';
 import { TRANSAK_API_KEY } from '../constants/on-ramp';
 import getBuyEthUrl from './buy-eth-url';
@@ -16,8 +16,8 @@ const MAINNET = {
   amount: 5,
   address: ETH_ADDRESS,
 };
-const ROPSTEN = {
-  chainId: ROPSTEN_CHAIN_ID,
+const TESTNET = {
+  chainId: TESTNET_CHAIN_ID,
 };
 const RINKEBY = {
   chainId: RINKEBY_CHAIN_ID,
@@ -27,7 +27,7 @@ const KOVAN = {
 };
 
 describe('buy-eth-url', function () {
-  it('returns Wyre url with an ETH address for Ethereum mainnet', async function () {
+  it('returns Wyre url with an ETH address for XDC Mainnet', async function () {
     nock('https://api.metaswap.codefi.network')
       .get(`/fiatOnRampUrl?serviceName=wyre&destinationAddress=${ETH_ADDRESS}`)
       .reply(200, {
@@ -50,7 +50,7 @@ describe('buy-eth-url', function () {
     );
   });
 
-  it('returns Transak url with an ETH address for Ethereum mainnet', async function () {
+  it('returns Transak url with an ETH address for XDC Mainnet', async function () {
     const transakUrl = await getBuyEthUrl({ ...MAINNET, service: 'transak' });
 
     assert.equal(
@@ -59,9 +59,9 @@ describe('buy-eth-url', function () {
     );
   });
 
-  it('returns metamask ropsten faucet for network 3', async function () {
-    const ropstenUrl = await getBuyEthUrl(ROPSTEN);
-    assert.equal(ropstenUrl, 'https://faucet.metamask.io/');
+  it('returns metamask TESTNET faucet for network 3', async function () {
+    const TESTNETUrl = await getBuyEthUrl(TESTNET);
+    assert.equal(TESTNETUrl, 'https://faucet.metamask.io/');
   });
 
   it('returns rinkeby dapp for network 4', async function () {

@@ -377,8 +377,8 @@ export default class Routes extends Component {
     switch (provider.type) {
       case 'mainnet':
         return this.context.t('connectingToMainnet');
-      case 'ropsten':
-        return this.context.t('connectingToRopsten');
+      case 'testnet':
+        return this.context.t('connectingToTestnet');
       case 'kovan':
         return this.context.t('connectingToKovan');
       case 'rinkeby':
@@ -394,8 +394,8 @@ export default class Routes extends Component {
     switch (this.props.provider.type) {
       case 'mainnet':
         return this.context.t('mainnet');
-      case 'ropsten':
-        return this.context.t('ropsten');
+      case 'TESTNET':
+        return this.context.t('testnet');
       case 'kovan':
         return this.context.t('kovan');
       case 'rinkeby':

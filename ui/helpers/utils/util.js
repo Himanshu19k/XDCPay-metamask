@@ -10,7 +10,7 @@ import {
   LOCALHOST_CHAIN_ID,
   MAINNET_CHAIN_ID,
   RINKEBY_CHAIN_ID,
-  ROPSTEN_CHAIN_ID,
+  TESTNET_CHAIN_ID,
 } from '../../../shared/constants/network';
 import { toChecksumHexAddress } from '../../../shared/modules/hexstring-utils';
 
@@ -44,7 +44,7 @@ export function isDefaultMetaMaskChain(chainId) {
   if (
     !chainId ||
     chainId === MAINNET_CHAIN_ID ||
-    chainId === ROPSTEN_CHAIN_ID ||
+    chainId === TESTNET_CHAIN_ID ||
     chainId === RINKEBY_CHAIN_ID ||
     chainId === KOVAN_CHAIN_ID ||
     chainId === GOERLI_CHAIN_ID ||

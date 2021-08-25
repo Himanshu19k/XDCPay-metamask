@@ -328,13 +328,13 @@
     "message": "Kumokonekta sa Kovan Test Network"
   },
   "connectingToMainnet": {
-    "message": "Kumokonekta sa Ethereum Mainnet"
+    "message": "Kumokonekta sa XDC Mainnet"
   },
   "connectingToRinkeby": {
     "message": "Kumokonekta sa Rinkeby Test Network"
   },
-  "connectingToRopsten": {
-    "message": "Kumokonekta sa Ropsten Test Network"
+  "connectingToTESTNET": {
+    "message": "Kumokonekta sa TESTNET Test Network"
   },
   "contactUs": {
     "message": "Makipag-ugnayan sa amin"
@@ -554,7 +554,7 @@
     "description": "$1 is the return value of eth_chainId from an RPC endpoint"
   },
   "ensNotFoundOnCurrentNetwork": {
-    "message": "Hindi nahanapa ang ENS name sa kasalukuyang network. Subukang lumipat sa Ethereum Mainnet."
+    "message": "Hindi nahanapa ang ENS name sa kasalukuyang network. Subukang lumipat sa XDC Mainnet."
   },
   "ensRegistrationError": {
     "message": "Nagka-error sa pag-register ng ENS name"
@@ -897,7 +897,7 @@
     "message": "Masyadong matagal ang oras ng pag-lock"
   },
   "mainnet": {
-    "message": "Ethereum Mainnet"
+    "message": "XDC Mainnet"
   },
   "max": {
     "message": "Max"
@@ -1268,8 +1268,8 @@
   "rinkeby": {
     "message": "Rinkeby Test Network"
   },
-  "ropsten": {
-    "message": "Ropsten Test Network"
+  "TESTNET": {
+    "message": "TESTNET Test Network"
   },
   "rpcUrl": {
     "message": "Bagong RPC URL"

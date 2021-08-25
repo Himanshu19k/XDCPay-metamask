@@ -391,13 +391,13 @@
     "message": "Kovan टेस्ट नेटवर्क से कनेक्ट हो रहा है"
   },
   "connectingToMainnet": {
-    "message": "Ethereum Mainnet से कनेक्ट हो रहा है"
+    "message": "XDC Mainnet से कनेक्ट हो रहा है"
   },
   "connectingToRinkeby": {
     "message": "Rinkeby टेस्ट नेटवर्क से कनेक्ट हो रहा है"
   },
-  "connectingToRopsten": {
-    "message": "Ropsten टेस्ट नेटवर्क से कनेक्ट हो रहा है"
+  "connectingToTESTNET": {
+    "message": "TESTNET टेस्ट नेटवर्क से कनेक्ट हो रहा है"
   },
   "contactUs": {
     "message": "हमसे संपर्क करें"
@@ -648,7 +648,7 @@
     "description": "$1 is the return value of eth_chainId from an RPC endpoint"
   },
   "ensNotFoundOnCurrentNetwork": {
-    "message": "वर्तमान नेटवर्क पर ENS नाम नहीं मिला। Ethereum Mainnet पर स्विच करने का प्रयास करें।"
+    "message": "वर्तमान नेटवर्क पर ENS नाम नहीं मिला। XDC Mainnet पर स्विच करने का प्रयास करें।"
   },
   "ensRegistrationError": {
     "message": "ENS नाम पंजीकरण में त्रुटि"
@@ -1053,7 +1053,7 @@
     "message": "लॉक समय बहुत अधिक है"
   },
   "mainnet": {
-    "message": "Ethereum Mainnet"
+    "message": "XDC Mainnet"
   },
   "makeAnotherSwap": {
     "message": "एक नया स्वैप बनाएँ"
@@ -1551,8 +1551,8 @@
   "rinkeby": {
     "message": "Rinkeby टेस्ट नेटवर्क"
   },
-  "ropsten": {
-    "message": "Ropsten टेस्ट नेटवर्क"
+  "TESTNET": {
+    "message": "TESTNET टेस्ट नेटवर्क"
   },
   "rpcUrl": {
     "message": "नया RPC URL"

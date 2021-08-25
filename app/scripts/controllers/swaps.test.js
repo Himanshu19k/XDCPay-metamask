@@ -6,7 +6,7 @@ import { mapValues } from 'lodash';
 import BigNumber from 'bignumber.js';
 import { ObservableStore } from '@metamask/obs-store';
 import {
-  ROPSTEN_NETWORK_ID,
+  TESTNET_NETWORK_ID,
   MAINNET_NETWORK_ID,
   MAINNET_CHAIN_ID,
 } from '../../../shared/constants/network';
@@ -102,7 +102,7 @@ function getMockNetworkController() {
     store: {
       getState: () => {
         return {
-          network: ROPSTEN_NETWORK_ID,
+          network: TESTNET_NETWORK_ID,
         };
       },
     },
@@ -266,7 +266,7 @@ describe('SwapsController', function () {
       const currentEthersInstance = swapsController.ethersProvider;
       const onNetworkDidChange = networkController.on.getCall(0).args[1];
 
-      onNetworkDidChange(ROPSTEN_NETWORK_ID);
+      onNetworkDidChange(TESTNET_NETWORK_ID);
 
       const newEthersInstance = swapsController.ethersProvider;
       assert.strictEqual(

@@ -86,7 +86,7 @@ const SWAPS_TESTNET_CHAIN_ID = '0x539';
 const SWAPS_TESTNET_HOST = 'https://metaswap-api.airswap-dev.codefi.network';
 
 const BSC_DEFAULT_BLOCK_EXPLORER_URL = 'https://bscscan.com/';
-const MAINNET_DEFAULT_BLOCK_EXPLORER_URL = 'https://etherscan.io/';
+const MAINNET_DEFAULT_BLOCK_EXPLORER_URL = 'https://rpc.apothem.network/';
 const RINKEBY_DEFAULT_BLOCK_EXPLORER_URL = 'https://rinkeby.etherscan.io/';
 const POLYGON_DEFAULT_BLOCK_EXPLORER_URL = 'https://polygonscan.com/';
 

@@ -9,8 +9,8 @@ import {
   NETWORK_TYPE_RPC,
   RINKEBY,
   RINKEBY_CHAIN_ID,
-  ROPSTEN,
-  ROPSTEN_CHAIN_ID,
+  TESTNET,
+  TESTNET_CHAIN_ID,
 } from '../../../shared/constants/network';
 import migration52 from './052';
 
@@ -242,25 +242,25 @@ describe('migration #52', function () {
     });
   });
 
-  it(`should move ${ROPSTEN} tokens and hidden tokens to be keyed by ${ROPSTEN_CHAIN_ID} for each address`, async function () {
+  it(`should move ${TESTNET} tokens and hidden tokens to be keyed by ${TESTNET_CHAIN_ID} for each address`, async function () {
     const oldStorage = {
       meta: {},
       data: {
         PreferencesController: {
           accountHiddenTokens: {
             '0x1111': {
-              [ROPSTEN]: [TOKEN1],
+              [TESTNET]: [TOKEN1],
             },
             '0x1112': {
-              [ROPSTEN]: [TOKEN3],
+              [TESTNET]: [TOKEN3],
             },
           },
           accountTokens: {
             '0x1111': {
-              [ROPSTEN]: [TOKEN1, TOKEN2],
+              [TESTNET]: [TOKEN1, TOKEN2],
             },
             '0x1112': {
-              [ROPSTEN]: [TOKEN1, TOKEN3],
+              [TESTNET]: [TOKEN1, TOKEN3],
             },
           },
           bar: 'baz',
@@ -274,18 +274,18 @@ describe('migration #52', function () {
       PreferencesController: {
         accountHiddenTokens: {
           '0x1111': {
-            [ROPSTEN_CHAIN_ID]: [TOKEN1],
+            [TESTNET_CHAIN_ID]: [TOKEN1],
           },
           '0x1112': {
-            [ROPSTEN_CHAIN_ID]: [TOKEN3],
+            [TESTNET_CHAIN_ID]: [TOKEN3],
           },
         },
         accountTokens: {
           '0x1111': {
-            [ROPSTEN_CHAIN_ID]: [TOKEN1, TOKEN2],
+            [TESTNET_CHAIN_ID]: [TOKEN1, TOKEN2],
           },
           '0x1112': {
-            [ROPSTEN_CHAIN_ID]: [TOKEN1, TOKEN3],
+            [TESTNET_CHAIN_ID]: [TOKEN1, TOKEN3],
           },
         },
         bar: 'baz',

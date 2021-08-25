@@ -18,7 +18,7 @@ const state = {
     "isInitialized": true,
     "isUnlocked": true,
     "isAccountMenuOpen": false,
-    "rpcUrl": "https://rawtestrpc.metamask.io/",
+    "rpcUrl": "https://rpc.apothem.network/",
     "identities": {
       "0x64a845a5b02460acf8a3d84503b0d68d028b4bb4": {
         "name": "This is a Really Long Account Name",
@@ -150,14 +150,14 @@ const state = {
     "swapsWelcomeMessageHasBeenShown": true,
     "defaultHomeActiveTabName": "Assets",
     "provider": {
-      "type": "ropsten",
+      "type": "TESTNET",
       "ticker": "ETH",
       "nickname": "",
       "rpcUrl": "",
       "chainId": "0x3"
     },
     "previousProviderStore": {
-      "type": "ropsten",
+      "type": "TESTNET",
       "ticker": "ETH",
       "nickname": "",
       "rpcUrl": "",
@@ -372,7 +372,7 @@ const state = {
       }
     },
     "incomingTxLastFetchedBlocksByNetwork": {
-      "ropsten": 8872820,
+      "TESTNET": 8872820,
       "Apothem": null,
       "kovan": null,
       "goerli": null,

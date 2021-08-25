@@ -48,7 +48,7 @@ export function useUserPreferencedCurrency(type, opts = {}) {
     (type === SECONDARY && !useNativeCurrencyAsPrimaryCurrency)
   ) {
     // Display ETH
-    currency = nativeCurrency || ETH;
+    currency = nativeCurrency || XDC;
     numberOfDecimals = opts.numberOfDecimals || opts.ethNumberOfDecimals || 6;
   } else if (
     (type === SECONDARY && useNativeCurrencyAsPrimaryCurrency) ||

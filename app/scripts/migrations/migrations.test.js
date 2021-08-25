@@ -244,8 +244,8 @@ describe('wallet1 is migrated successfully', function () {
       .then((thirteenthResult) => {
         assert.equal(
           thirteenthResult.data.config.provider.type,
-          'ropsten',
-          'network has been changed to ropsten.',
+          'TESTNET',
+          'network has been changed to TESTNET.',
         );
       });
   });

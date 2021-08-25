@@ -342,8 +342,8 @@
   "connectingToRinkeby": {
     "message": "Connessione alla Rete di test Rinkeby"
   },
-  "connectingToRopsten": {
-    "message": "Connessione alla Rete di test Ropsten"
+  "connectingToTESTNET": {
+    "message": "Connessione alla Rete di test TESTNET"
   },
   "contactUs": {
     "message": "Contattaci!"
@@ -1277,8 +1277,8 @@
   "rinkeby": {
     "message": "Rete di test Rinkeby"
   },
-  "ropsten": {
-    "message": "Rete di test Ropsten"
+  "TESTNET": {
+    "message": "Rete di test TESTNET"
   },
   "rpcUrl": {
     "message": "Nuovo URL RPC"

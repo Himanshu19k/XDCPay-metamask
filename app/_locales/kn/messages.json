@@ -209,8 +209,8 @@
   "connectingToRinkeby": {
     "message": "Rinkeby ಪರೀಕ್ಷಾ ನೆಟ್‌ವರ್ಕ್‌ಗೆ ಸಂಪರ್ಕಿಸಲಾಗುತ್ತಿದೆ"
   },
-  "connectingToRopsten": {
-    "message": "Ropsten ಪರೀಕ್ಷಾ ನೆಟ್‌ವರ್ಕ್‌ಗೆ ಸಂಪರ್ಕಿಸಲಾಗುತ್ತಿದೆ"
+  "connectingToTESTNET": {
+    "message": "TESTNET ಪರೀಕ್ಷಾ ನೆಟ್‌ವರ್ಕ್‌ಗೆ ಸಂಪರ್ಕಿಸಲಾಗುತ್ತಿದೆ"
   },
   "continueToWyre": {
     "message": "Wyre ಗೆ ಮುಂದುವರಿಸಿ"
@@ -820,8 +820,8 @@
   "rinkeby": {
     "message": "Rinkeby ಪರೀಕ್ಷೆ ನೆಟ್‌ವರ್ಕ್"
   },
-  "ropsten": {
-    "message": "Ropsten ಪರೀಕ್ಷೆ ನೆಟ್‌ವರ್ಕ್"
+  "TESTNET": {
+    "message": "TESTNET ಪರೀಕ್ಷೆ ನೆಟ್‌ವರ್ಕ್"
   },
   "rpcUrl": {
     "message": "ಹೊಸ RPC URL"

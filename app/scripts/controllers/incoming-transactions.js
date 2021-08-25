@@ -16,7 +16,7 @@ import {
   KOVAN_CHAIN_ID,
   MAINNET_CHAIN_ID,
   RINKEBY_CHAIN_ID,
-  ROPSTEN_CHAIN_ID,
+  TESTNET_CHAIN_ID,
 } from '../../../shared/constants/network';
 import { SECOND } from '../../../shared/constants/time';
 
@@ -58,7 +58,7 @@ const etherscanSupportedNetworks = [
   KOVAN_CHAIN_ID,
   MAINNET_CHAIN_ID,
   RINKEBY_CHAIN_ID,
-  ROPSTEN_CHAIN_ID,
+  TESTNET_CHAIN_ID,
 ];
 
 export default class IncomingTransactionsController {
@@ -86,7 +86,7 @@ export default class IncomingTransactionsController {
         [KOVAN_CHAIN_ID]: null,
         [MAINNET_CHAIN_ID]: null,
         [RINKEBY_CHAIN_ID]: null,
-        [ROPSTEN_CHAIN_ID]: null,
+        [TESTNET_CHAIN_ID]: null,
       },
       ...opts.initState,
     };

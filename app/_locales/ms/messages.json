@@ -209,8 +209,8 @@
   "connectingToRinkeby": {
     "message": "Menyambung kepada Rangkaian Ujian Rinkeby"
   },
-  "connectingToRopsten": {
-    "message": "Menyambungkan kepada Rangkaian Ujian Ropsten"
+  "connectingToTESTNET": {
+    "message": "Menyambungkan kepada Rangkaian Ujian TESTNET"
   },
   "continueToWyre": {
     "message": "Teruskan ke Wyre"
@@ -797,8 +797,8 @@
   "rinkeby": {
     "message": "Rangkaian Ujian Rinkeby"
   },
-  "ropsten": {
-    "message": "Rangkaian Ujian Ropsten"
+  "TESTNET": {
+    "message": "Rangkaian Ujian TESTNET"
   },
   "rpcUrl": {
     "message": "URL RPC baru"

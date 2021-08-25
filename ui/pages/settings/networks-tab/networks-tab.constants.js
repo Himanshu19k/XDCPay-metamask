@@ -11,9 +11,9 @@ import {
   RINKEBY,
   RINKEBY_CHAIN_ID,
   RINKEBY_RPC_URL,
-  ROPSTEN,
-  ROPSTEN_CHAIN_ID,
-  ROPSTEN_RPC_URL,
+  TESTNET,
+  TESTNET_CHAIN_ID,
+  TESTNET_RPC_URL,
 } from '../../../../shared/constants/network';
 
 const defaultNetworksData = [
@@ -24,25 +24,25 @@ const defaultNetworksData = [
     rpcUrl: MAINNET_RPC_URL,
     chainId: MAINNET_CHAIN_ID,
     ticker: 'ETH',
-    blockExplorerUrl: 'https://etherscan.io',
+    blockExplorerUrl: 'https://explorer.xinfin.network',
   },
   {
-    labelKey: ROPSTEN,
+    labelKey: TESTNET,
     iconColor: '#FF4A8D',
-    providerType: ROPSTEN,
-    rpcUrl: ROPSTEN_RPC_URL,
-    chainId: ROPSTEN_CHAIN_ID,
+    providerType: TESTNET,
+    rpcUrl: TESTNET_RPC_URL,
+    chainId: TESTNET_CHAIN_ID,
     ticker: 'ETH',
-    blockExplorerUrl: 'https://ropsten.etherscan.io',
+    blockExplorerUrl: 'https://explorer.apothem.network',
   },
   {
-    labelKey: RINKEBY,
+    labelKey: RINKEBY, 
     iconColor: '#F6C343',
     providerType: RINKEBY,
     rpcUrl: RINKEBY_RPC_URL,
     chainId: RINKEBY_CHAIN_ID,
     ticker: 'ETH',
-    blockExplorerUrl: 'https://rinkeby.etherscan.io',
+    blockExplorerUrl: 'https://rinkeby.network',
   },
   {
     labelKey: GOERLI,
@@ -51,7 +51,7 @@ const defaultNetworksData = [
     rpcUrl: GOERLI_RPC_URL,
     chainId: GOERLI_CHAIN_ID,
     ticker: 'ETH',
-    blockExplorerUrl: 'https://goerli.etherscan.io',
+    blockExplorerUrl: 'https://goerli.network',
   },
   {
     labelKey: KOVAN,
@@ -60,7 +60,7 @@ const defaultNetworksData = [
     rpcUrl: KOVAN_RPC_URL,
     chainId: KOVAN_CHAIN_ID,
     ticker: 'ETH',
-    blockExplorerUrl: 'https://kovan.etherscan.io',
+    blockExplorerUrl: 'https://kovan.network',
   },
 ];
 

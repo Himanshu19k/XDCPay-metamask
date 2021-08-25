@@ -8,8 +8,8 @@ import {
   MAINNET_CHAIN_ID,
   RINKEBY,
   RINKEBY_CHAIN_ID,
-  ROPSTEN,
-  ROPSTEN_CHAIN_ID,
+  TESTNET,
+  TESTNET_CHAIN_ID,
 } from '../../../shared/constants/network';
 import migration55 from './055';
 
@@ -43,7 +43,7 @@ describe('migration #55', function () {
           },
           incomingTxLastFetchedBlocksByNetwork: {
             [MAINNET]: 1,
-            [ROPSTEN]: 2,
+            [TESTNET]: 2,
             [RINKEBY]: 3,
             [GOERLI]: 4,
             [KOVAN]: 5,
@@ -60,7 +60,7 @@ describe('migration #55', function () {
           oldStorage.data.IncomingTransactionsController.incomingTransactions,
         incomingTxLastFetchedBlockByChainId: {
           [MAINNET_CHAIN_ID]: 1,
-          [ROPSTEN_CHAIN_ID]: 2,
+          [TESTNET_CHAIN_ID]: 2,
           [RINKEBY_CHAIN_ID]: 3,
           [GOERLI_CHAIN_ID]: 4,
           [KOVAN_CHAIN_ID]: 5,

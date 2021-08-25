@@ -186,16 +186,10 @@ class NetworkDropdown extends Component {
     let name;
 
     if (providerName === 'mainnet') {
-      name = this.context.t('mainnet');
-    } else if (providerName === 'ropsten') {
-      name = this.context.t('ropsten');
-    } else if (providerName === 'kovan') {
-      name = this.context.t('kovan');
-    } else if (providerName === 'rinkeby') {
-      name = this.context.t('rinkeby');
-    } else if (providerName === 'goerli') {
-      name = this.context.t('goerli');
-    } else {
+      name = this.context.t('XinFin Mainent');
+    } else if (providerName === 'Testnet') {
+      name = this.context.t('XinFin Testnet');
+    }  else {
       name = provider.nickname || this.context.t('unknownNetwork');
     }
 
@@ -282,10 +276,10 @@ class NetworkDropdown extends Component {
           </div>
         </div>
         {this.renderNetworkEntry('mainnet')}
-        {this.renderNetworkEntry('ropsten')}
+        {/* {this.renderNetworkEntry('TESTNET')}
         {this.renderNetworkEntry('kovan')}
         {this.renderNetworkEntry('rinkeby')}
-        {this.renderNetworkEntry('goerli')}
+        {this.renderNetworkEntry('goerli')} */}
 
         {this.renderCustomRpcList(rpcListDetail, this.props.provider)}
         <DropdownMenuItem

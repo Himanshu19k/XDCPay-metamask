@@ -396,8 +396,8 @@
   "connectingToRinkeby": {
     "message": "Đang kết nối với mạng thử nghiệm Rinkeby"
   },
-  "connectingToRopsten": {
-    "message": "Đang kết nối với mạng thử nghiệm Ropsten"
+  "connectingToTESTNET": {
+    "message": "Đang kết nối với mạng thử nghiệm TESTNET"
   },
   "contactUs": {
     "message": "Liên hệ với chúng tôi"
@@ -1551,8 +1551,8 @@
   "rinkeby": {
     "message": "Mạng thử nghiệm Rinkeby"
   },
-  "ropsten": {
-    "message": "Mạng thử nghiệm Ropsten"
+  "TESTNET": {
+    "message": "Mạng thử nghiệm TESTNET"
   },
   "rpcUrl": {
     "message": "URL RPC mới"

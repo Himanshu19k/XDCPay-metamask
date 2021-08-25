@@ -396,8 +396,8 @@
   "connectingToRinkeby": {
     "message": "Rinkeby 테스트 네트워크에 연결 중"
   },
-  "connectingToRopsten": {
-    "message": "Ropsten 테스트 네트워크에 연결 중"
+  "connectingToTESTNET": {
+    "message": "TESTNET 테스트 네트워크에 연결 중"
   },
   "contactUs": {
     "message": "문의하기"
@@ -1551,8 +1551,8 @@
   "rinkeby": {
     "message": "Rinkeby 테스트 네트워크"
   },
-  "ropsten": {
-    "message": "Ropsten 테스트 네트워크"
+  "TESTNET": {
+    "message": "TESTNET 테스트 네트워크"
   },
   "rpcUrl": {
     "message": "새 RPC URL"

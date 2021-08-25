@@ -48,7 +48,7 @@ export default function CurrencyDisplay({
     </div>
   );
 }
-
+  
 CurrencyDisplay.propTypes = {
   'className': PropTypes.string,
   'currency': PropTypes.string,

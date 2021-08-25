@@ -6,7 +6,7 @@ import {
   getValueFromWeiHex,
   getWeiHexFromDecimalValue,
 } from '../../../helpers/utils/conversions.util';
-import { ETH } from '../../../helpers/constants/common';
+import { XDC } from '../../../helpers/constants/common';
 
 /**
  * Component that allows user to enter currency values as a number, and props receive a converted
@@ -68,7 +68,7 @@ export default class CurrencyInput extends PureComponent {
         })
       : getValueFromWeiHex({
           value: hexValue,
-          toCurrency: ETH,
+          toCurrency: XDC,
           numberOfDecimals: 6,
         });
 
@@ -109,8 +109,8 @@ export default class CurrencyInput extends PureComponent {
         })
       : getWeiHexFromDecimalValue({
           value: decimalValue,
-          fromCurrency: ETH,
-          fromDenomination: ETH,
+          fromCurrency: XDC,
+          fromDenomination: XDC ,
           conversionRate,
         });
 
@@ -133,7 +133,7 @@ export default class CurrencyInput extends PureComponent {
 
     if (this.shouldUseFiat()) {
       // Display ETH
-      currency = nativeCurrency || ETH;
+      currency = nativeCurrency || XDC;
       numberOfDecimals = 6;
     } else {
       // Display Fiat

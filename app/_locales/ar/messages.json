@@ -209,8 +209,8 @@
   "connectingToRinkeby": {
     "message": "جارِ الاتصال بشبكة اختبار Rinkeby "
   },
-  "connectingToRopsten": {
-    "message": "جارِ الاتصال بشبكة اختبار Ropsten "
+  "connectingToTESTNET": {
+    "message": "جارِ الاتصال بشبكة اختبار TESTNET "
   },
   "continueToWyre": {
     "message": "الاستمرار إلى Wyre"
@@ -813,8 +813,8 @@
   "rinkeby": {
     "message": "شبكة اختبارات Rinkeby"
   },
-  "ropsten": {
-    "message": "شبكة اختبار Ropsten"
+  "TESTNET": {
+    "message": "شبكة اختبار TESTNET"
   },
   "rpcUrl": {
     "message": "عنوان جديد لاستدعاء الإجراء عن بعد"

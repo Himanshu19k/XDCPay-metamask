@@ -300,8 +300,8 @@
   "rinkeby": {
     "message": "Rede de Teste Rinkeby"
   },
-  "ropsten": {
-    "message": "Rede de Teste Ropsten"
+  "TESTNET": {
+    "message": "Rede de Teste TESTNET"
   },
   "save": {
     "message": "Guardar"

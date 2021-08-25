@@ -99,7 +99,7 @@
             }
           ],
           "rinkeby": [],
-          "ropsten": []
+          "TESTNET": []
         }
       },
       "assetImages": {},

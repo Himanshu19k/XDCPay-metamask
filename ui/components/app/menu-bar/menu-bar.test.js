@@ -3,14 +3,14 @@ import { Provider } from 'react-redux';
 import configureStore from 'redux-mock-store';
 import { waitFor } from '@testing-library/react';
 import { mountWithRouter } from '../../../../test/lib/render-helpers';
-import { ROPSTEN_CHAIN_ID } from '../../../../shared/constants/network';
+import { TESTNET_CHAIN_ID } from '../../../../shared/constants/network';
 import MenuBar from './menu-bar';
 
 const initState = {
   activeTab: {},
   metamask: {
     provider: {
-      chainId: ROPSTEN_CHAIN_ID,
+      chainId: TESTNET_CHAIN_ID,
     },
     selectedAddress: '0x0dcd5d886577d5081b0c52e242ef29e70be3e7bc',
     identities: {

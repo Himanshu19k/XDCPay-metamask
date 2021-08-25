@@ -206,8 +206,8 @@
   "connectingToRinkeby": {
     "message": "Connectant a la Xarxa de Prova Rinkeby"
   },
-  "connectingToRopsten": {
-    "message": "Connectant a la xarxa de test Ropsten"
+  "connectingToTESTNET": {
+    "message": "Connectant a la xarxa de test TESTNET"
   },
   "continueToWyre": {
     "message": "Continua a Wyre"
@@ -798,8 +798,8 @@
   "rinkeby": {
     "message": "Xarxa del test Rinkeby"
   },
-  "ropsten": {
-    "message": "Xarxa de Prova Ropsten"
+  "TESTNET": {
+    "message": "Xarxa de Prova TESTNET"
   },
   "rpcUrl": {
     "message": "Nova URL de RPC"

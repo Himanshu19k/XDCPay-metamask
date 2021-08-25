@@ -1,7 +1,7 @@
 import { strict as assert } from 'assert';
 import {
   MAINNET_CHAIN_ID,
-  ROPSTEN_CHAIN_ID,
+  TESTNET_CHAIN_ID,
 } from '../../../shared/constants/network';
 import migration54 from './054';
 
@@ -175,7 +175,7 @@ describe('migration #54', function () {
               ],
             },
             '0x1112': {
-              [ROPSTEN_CHAIN_ID]: [
+              [TESTNET_CHAIN_ID]: [
                 {
                   address: '0x06012c8cf97bead5deae237070f9587f8e7a266d',
                   decimals: '0',
@@ -233,7 +233,7 @@ describe('migration #54', function () {
             ],
           },
           '0x1112': {
-            [ROPSTEN_CHAIN_ID]: [
+            [TESTNET_CHAIN_ID]: [
               {
                 address: '0x06012c8cf97bead5deae237070f9587f8e7a266d',
                 decimals: 0,
@@ -293,7 +293,7 @@ describe('migration #54', function () {
               ],
             },
             '0x1112': {
-              [ROPSTEN_CHAIN_ID]: [
+              [TESTNET_CHAIN_ID]: [
                 {
                   address: '0x06012c8cf97bead5deae237070f9587f8e7a266d',
                   decimals: 0,
@@ -351,7 +351,7 @@ describe('migration #54', function () {
             ],
           },
           '0x1112': {
-            [ROPSTEN_CHAIN_ID]: [
+            [TESTNET_CHAIN_ID]: [
               {
                 address: '0x06012c8cf97bead5deae237070f9587f8e7a266d',
                 decimals: 0,
@@ -411,7 +411,7 @@ describe('migration #54', function () {
               ],
             },
             '0x1112': {
-              [ROPSTEN_CHAIN_ID]: [
+              [TESTNET_CHAIN_ID]: [
                 {
                   address: '0x06012c8cf97bead5deae237070f9587f8e7a266d',
                   decimals: '0',
@@ -490,7 +490,7 @@ describe('migration #54', function () {
             ],
           },
           '0x1112': {
-            [ROPSTEN_CHAIN_ID]: [
+            [TESTNET_CHAIN_ID]: [
               {
                 address: '0x06012c8cf97bead5deae237070f9587f8e7a266d',
                 decimals: 0,
@@ -571,7 +571,7 @@ describe('migration #54', function () {
               ],
             },
             '0x1112': {
-              [ROPSTEN_CHAIN_ID]: [
+              [TESTNET_CHAIN_ID]: [
                 {
                   address: '0x06012c8cf97bead5deae237070f9587f8e7a266d',
                   decimals: '0',
@@ -645,7 +645,7 @@ describe('migration #54', function () {
             ],
           },
           '0x1112': {
-            [ROPSTEN_CHAIN_ID]: [
+            [TESTNET_CHAIN_ID]: [
               {
                 address: '0x06012c8cf97bead5deae237070f9587f8e7a266d',
                 decimals: 0,

@@ -290,8 +290,8 @@
   "rinkeby": {
     "message": "Rinkeby testnetwerk"
   },
-  "ropsten": {
-    "message": "Ropsten testnetwerk"
+  "TESTNET": {
+    "message": "TESTNET testnetwerk"
   },
   "save": {
     "message": "Opslaan"

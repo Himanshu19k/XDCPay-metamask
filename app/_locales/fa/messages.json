@@ -209,8 +209,8 @@
   "connectingToRinkeby": {
     "message": "در حال اتصال به شبکه آزمایشی Rinkeby"
   },
-  "connectingToRopsten": {
-    "message": "در حال اتصال به شبکه آزمایشی Ropsten"
+  "connectingToTESTNET": {
+    "message": "در حال اتصال به شبکه آزمایشی TESTNET"
   },
   "continueToWyre": {
     "message": "ادامه به Wyre"
@@ -820,8 +820,8 @@
   "rinkeby": {
     "message": "شبکه آزمایشی Rinkeby"
   },
-  "ropsten": {
-    "message": "شبکه آزمایشی Ropsten"
+  "TESTNET": {
+    "message": "شبکه آزمایشی TESTNET"
   },
   "rpcUrl": {
     "message": "RPC URL جدید"

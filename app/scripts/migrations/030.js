@@ -29,7 +29,7 @@ function transformState(state) {
     if (frequentRpcListDetail) {
       frequentRpcListDetail.forEach((rpc, index) => {
         // eslint-disable-next-line radix
-        if (Boolean(rpc.chainId) && Number.isNaN(parseInt(rpc.chainId))) {
+        if (Boolean(chainId) && Number.isNaN(parseInt(rpc.chainId))) {
           delete frequentRpcListDetail[index].chainId;
         }
       });

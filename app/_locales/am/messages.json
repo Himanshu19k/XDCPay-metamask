@@ -209,8 +209,8 @@
   "connectingToRinkeby": {
     "message": "ከ Rinkeby የሙከራ አውታረ መረብ ጋር በመገናኘት ላይ"
   },
-  "connectingToRopsten": {
-    "message": "ከ Ropsten የሙከራ አውታረ መረብ ጋር በመገናኘት ላይ"
+  "connectingToTESTNET": {
+    "message": "ከ TESTNET የሙከራ አውታረ መረብ ጋር በመገናኘት ላይ"
   },
   "continueToWyre": {
     "message": "ወደ Wyre ይቀጥሉ"
@@ -817,8 +817,8 @@
   "rinkeby": {
     "message": "Rinkeby የሙከራ አውታረ መረብ"
   },
-  "ropsten": {
-    "message": "Ropsten የሙከራ አውታረ መረብ "
+  "TESTNET": {
+    "message": "TESTNET የሙከራ አውታረ መረብ "
   },
   "rpcUrl": {
     "message": "አዲስ የ RPC URL"

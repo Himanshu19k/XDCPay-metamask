@@ -183,13 +183,13 @@
     "message": "Kumokonekta sa Kovan Test Network"
   },
   "connectingToMainnet": {
-    "message": "Kumokonekta sa Ethereum Mainnet"
+    "message": "Kumokonekta sa XDC Mainnet"
   },
   "connectingToRinkeby": {
     "message": "Kumokonekta sa Rinkeby Test Network"
   },
-  "connectingToRopsten": {
-    "message": "Kumokonekta sa Ropsten Test Network"
+  "connectingToTESTNET": {
+    "message": "Kumokonekta sa TESTNET Test Network"
   },
   "continueToWyre": {
     "message": "Magpatuloy sa Wyre"
@@ -327,7 +327,7 @@
     "message": "Matuto pa."
   },
   "ensNotFoundOnCurrentNetwork": {
-    "message": "Hindi nakita ang ENS name sa kasalukuyang network. Subukang lumipat sa Ethereum Mainnet."
+    "message": "Hindi nakita ang ENS name sa kasalukuyang network. Subukang lumipat sa XDC Mainnet."
   },
   "ensRegistrationError": {
     "message": "May error sa pagrerehistro ng ENS name"

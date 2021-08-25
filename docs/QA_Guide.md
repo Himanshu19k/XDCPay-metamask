@@ -40,7 +40,7 @@ Steps to mark a full pass of QA complete.
 * Send a transaction and sign a message (https://danfinlay.github.io/js-eth-personal-sign-examples/) for each keyring type
     * hd keyring
     * imported keyring
-* Change network from mainnet → ropsten → rinkeby → localhost (ganache)
+* Change network from mainnet → TESTNET → rinkeby → localhost (ganache)
 * Ganache set blocktime to simulate retryTx in MetaMask
 * Copy public key to clipboard
 * Export private key

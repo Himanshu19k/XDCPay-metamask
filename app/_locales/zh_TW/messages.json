@@ -218,8 +218,8 @@
   "connectingToRinkeby": {
     "message": "連線到 Rinkeby 測試網路"
   },
-  "connectingToRopsten": {
-    "message": "連線到 Ropsten 測試網路"
+  "connectingToTESTNET": {
+    "message": "連線到 TESTNET 測試網路"
   },
   "continueToWyre": {
     "message": "繼續至 Wyre"
@@ -814,8 +814,8 @@
   "rinkeby": {
     "message": "Rinkeby 測試網路"
   },
-  "ropsten": {
-    "message": "Ropsten 測試網路"
+  "TESTNET": {
+    "message": "TESTNET 測試網路"
   },
   "rpcUrl": {
     "message": "新的 RPC URL"

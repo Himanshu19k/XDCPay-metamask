@@ -342,8 +342,8 @@
   "connectingToRinkeby": {
     "message": "正在连接到 Rinkeby 测试网络"
   },
-  "connectingToRopsten": {
-    "message": "正在连接到 Ropsten 测试网络"
+  "connectingToTESTNET": {
+    "message": "正在连接到 TESTNET 测试网络"
   },
   "contactUs": {
     "message": "联系我们"
@@ -1271,8 +1271,8 @@
   "rinkeby": {
     "message": "Rinkeby 测试网络"
   },
-  "ropsten": {
-    "message": "Ropsten 测试网络"
+  "TESTNET": {
+    "message": "TESTNET 测试网络"
   },
   "rpcUrl": {
     "message": "新增 RPC URL"

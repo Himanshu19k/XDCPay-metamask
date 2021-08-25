@@ -209,8 +209,8 @@
   "connectingToRinkeby": {
     "message": "Під'єднуємось до тестової мережі Rinkeby"
   },
-  "connectingToRopsten": {
-    "message": "Під'єднуємось до Тестової мережі Ropsten"
+  "connectingToTESTNET": {
+    "message": "Під'єднуємось до Тестової мережі TESTNET"
   },
   "continueToWyre": {
     "message": "Продовжити у Wyre"
@@ -351,7 +351,7 @@
     "message": "Дізнатись більше."
   },
   "ensNotFoundOnCurrentNetwork": {
-    "message": "Ім'я ENS не знайдено у даній мережі. Спробуйте перейти у Ethereum Mainnet."
+    "message": "Ім'я ENS не знайдено у даній мережі. Спробуйте перейти у XDC Mainnet."
   },
   "ensRegistrationError": {
     "message": "Помилка у реєстрації ENS ім'я"
@@ -820,8 +820,8 @@
   "rinkeby": {
     "message": "Тестова мережа Rinkeby"
   },
-  "ropsten": {
-    "message": "Тестова мережа Ropsten"
+  "TESTNET": {
+    "message": "Тестова мережа TESTNET"
   },
   "rpcUrl": {
     "message": "Новий RPC URL"

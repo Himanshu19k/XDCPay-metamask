@@ -209,8 +209,8 @@
   "connectingToRinkeby": {
     "message": "Свързване с тестова мрежа на Rinkeby"
   },
-  "connectingToRopsten": {
-    "message": "Свързване с тестова мрежа Ropsten"
+  "connectingToTESTNET": {
+    "message": "Свързване с тестова мрежа TESTNET"
   },
   "continueToWyre": {
     "message": "Продължете към Wyre"
@@ -816,8 +816,8 @@
   "rinkeby": {
     "message": "Тестова мрежа на Rinkeby"
   },
-  "ropsten": {
-    "message": "Тестова мрежа Ropsten"
+  "TESTNET": {
+    "message": "Тестова мрежа TESTNET"
   },
   "rpcUrl": {
     "message": "Нов URL адрес за RPC"

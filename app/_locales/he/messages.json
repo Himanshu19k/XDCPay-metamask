@@ -209,8 +209,8 @@
   "connectingToRinkeby": {
     "message": "מתחבר ל- Rinkeby Test Network  "
   },
-  "connectingToRopsten": {
-    "message": "מתחבר אל רשת בדיקה Ropsten "
+  "connectingToTESTNET": {
+    "message": "מתחבר אל רשת בדיקה TESTNET "
   },
   "continueToWyre": {
     "message": "המשך ל-Wyre"

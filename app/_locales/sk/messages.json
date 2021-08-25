@@ -198,13 +198,13 @@
     "message": "Připojuji se k Kovan Test Network"
   },
   "connectingToMainnet": {
-    "message": "Připojuji se k Ethereum Mainnet"
+    "message": "Připojuji se k XDC Mainnet"
   },
   "connectingToRinkeby": {
     "message": "Připojuji se k Rinkeby Test Network"
   },
-  "connectingToRopsten": {
-    "message": "Připojuji se k Ropsten Test Network"
+  "connectingToTESTNET": {
+    "message": "Připojuji se k TESTNET Test Network"
   },
   "continueToWyre": {
     "message": "Pokračovať na Wyre"

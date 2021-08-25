@@ -209,8 +209,8 @@
   "connectingToRinkeby": {
     "message": "Jungiamasi prie „Rinkeby“ bandomojo tinklo"
   },
-  "connectingToRopsten": {
-    "message": "Jungiamasi prie „Ropsten“ bandomojo tinklo"
+  "connectingToTESTNET": {
+    "message": "Jungiamasi prie „TESTNET“ bandomojo tinklo"
   },
   "continueToWyre": {
     "message": "Tęsti su „Wyre“"
@@ -820,8 +820,8 @@
   "rinkeby": {
     "message": "„Rinkeby“ bandomasis tinklas"
   },
-  "ropsten": {
-    "message": "„Ropsten“ bandomasis tinklas"
+  "TESTNET": {
+    "message": "„TESTNET“ bandomasis tinklas"
   },
   "rpcUrl": {
     "message": "Naujas RPC URL"

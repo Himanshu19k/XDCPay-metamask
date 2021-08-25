@@ -72,8 +72,8 @@ describe('Network Dropdown', () => {
 
     it('checks background color for second ColorIndicator', () => {
       const colorIndicator = wrapper.find(ColorIndicator).at(1);
-      expect(colorIndicator.prop('color')).toStrictEqual('ropsten');
-      expect(colorIndicator.prop('borderColor')).toStrictEqual('ropsten');
+      expect(colorIndicator.prop('color')).toStrictEqual('testnet');
+      expect(colorIndicator.prop('borderColor')).toStrictEqual('testnet');
     });
 
     it('checks background color for third ColorIndicator', () => {

@@ -209,8 +209,8 @@
   "connectingToRinkeby": {
     "message": "Kapcsolódás a Rinkeby Teszthálózathoz"
   },
-  "connectingToRopsten": {
-    "message": "Csatlakozás a Ropsten teszthálózathoz"
+  "connectingToTESTNET": {
+    "message": "Csatlakozás a TESTNET teszthálózathoz"
   },
   "continueToWyre": {
     "message": "Tovább a Wyre-re"
@@ -813,8 +813,8 @@
   "rinkeby": {
     "message": "Rinkeby teszthálózat"
   },
-  "ropsten": {
-    "message": "Ropsten teszthálózat"
+  "TESTNET": {
+    "message": "TESTNET teszthálózat"
   },
   "rpcUrl": {
     "message": "Új RPC URL"

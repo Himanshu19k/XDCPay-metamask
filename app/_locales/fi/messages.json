@@ -209,8 +209,8 @@
   "connectingToRinkeby": {
     "message": "Yhdistetään Rinkebyn koeverkkoon"
   },
-  "connectingToRopsten": {
-    "message": "Yhdistetään Ropstenin koeverkkoon"
+  "connectingToTESTNET": {
+    "message": "Yhdistetään TESTNETin koeverkkoon"
   },
   "continueToWyre": {
     "message": "Jatka Wyreen"
@@ -817,8 +817,8 @@
   "rinkeby": {
     "message": "Rinkebyn koeverkko"
   },
-  "ropsten": {
-    "message": "Ropstenin koeverkko"
+  "TESTNET": {
+    "message": "TESTNETin koeverkko"
   },
   "rpcUrl": {
     "message": "Uusi RPC:n URL"

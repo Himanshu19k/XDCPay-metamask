@@ -35,7 +35,7 @@ describe('MetaMask', function () {
         await driver.switchToWindow(windowHandles[0]);
 
         await driver.clickElement('.network-display');
-        await driver.clickElement({ text: 'Ropsten', tag: 'span' });
+        await driver.clickElement({ text: 'Testnet', tag: 'span' });
         await driver.delay(regularDelayMs);
 
         await driver.switchToWindowWithTitle('E2E Test Dapp', windowHandles);

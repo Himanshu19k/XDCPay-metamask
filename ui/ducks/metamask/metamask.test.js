@@ -322,7 +322,7 @@ describe('MetaMask Reducers', () => {
 
     describe('getNativeCurrency()', () => {
       it('should return the ticker symbol of the selected network', () => {
-        expect(getNativeCurrency(mockState)).toStrictEqual('ETH');
+        expect(getNativeCurrency(mockState)).toStrictEqual('XDC');
       });
     });
 

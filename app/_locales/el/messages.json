@@ -206,8 +206,8 @@
   "connectingToRinkeby": {
     "message": "Σύνδεση στο Δίκτυο Δοκιμών Rinkeby"
   },
-  "connectingToRopsten": {
-    "message": "Σύνδεση με το Δίκτυο Δοκιμών Ropsten"
+  "connectingToTESTNET": {
+    "message": "Σύνδεση με το Δίκτυο Δοκιμών TESTNET"
   },
   "continueToWyre": {
     "message": "Συνεχίστε στο Wyre"
@@ -817,8 +817,8 @@
   "rinkeby": {
     "message": "Δοκιμαστικό Δίκτυο Rinkeby"
   },
-  "ropsten": {
-    "message": "Δίκτυο Δοκιμών Ropsten"
+  "TESTNET": {
+    "message": "Δίκτυο Δοκιμών TESTNET"
   },
   "rpcUrl": {
     "message": "Νέο RPC URL"

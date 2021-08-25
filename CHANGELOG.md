@@ -280,7 +280,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Fix multiple notification window prompts. ([#10423](https://github.com/MetaMask/metamask-extension/pull/10423))
 - Fix icons on token options menu. ([#10424](https://github.com/MetaMask/metamask-extension/pull/10424))
 - Fix token fiat conversion rates when switching from certain custom networks. ([#10414](https://github.com/MetaMask/metamask-extension/pull/10414))
-- Disable BUY button from home screen when not on Ethereum Mainnet. ([#10453](https://github.com/MetaMask/metamask-extension/pull/10453))
+- Disable BUY button from home screen when not on XDC Mainnet. ([#10453](https://github.com/MetaMask/metamask-extension/pull/10453))
 - Fixes gas selection check mark on the notification view. ([#10465](https://github.com/MetaMask/metamask-extension/pull/10465))
 - Fix confirm page header with from/to addresses in fullscreen for tx confirmations. ([#10467](https://github.com/MetaMask/metamask-extension/pull/10467))
 - Hide links to etherscan when no block explorer is specified for a custom network for notifications. ([#10455](https://github.com/MetaMask/metamask-extension/pull/10455))
@@ -1323,7 +1323,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Clear old seed words when importing new seed words. ([#5229](https://github.com/MetaMask/metamask-extension/pull/5229))
 - Improve click area for adjustment arrows buttons. ([#5264](https://github.com/MetaMask/metamask-extension/pull/5264))
 - Add new metamask_watchAsset method. ([#4606](https://github.com/MetaMask/metamask-extension/pull/4606))
-- Fix bug where Ropsten loading message is shown when connecting to Kovan. ([#5189](https://github.com/MetaMask/metamask-extension/pull/5189))
+- Fix bug where TESTNET loading message is shown when connecting to Kovan. ([#5189](https://github.com/MetaMask/metamask-extension/pull/5189))
 - Add mock EIP-1102 support ([#5256](https://github.com/MetaMask/metamask-extension/pull/5256))
 
 ## [4.9.3] - 2018-08-16
@@ -1757,7 +1757,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [3.9.1] - 2017-07-19
 ### Uncategorized
-- No longer automatically request 1 ropsten ether for the first account in a new vault.
+- No longer automatically request 1 TESTNET ether for the first account in a new vault.
 - Now redirects from known malicious sites faster.
 - Added a link to our new support page to the help screen.
 - Fixed bug where a new transaction would be shown over the current transaction, creating a possible timing attack against user confirmation.
@@ -1929,7 +1929,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [3.5.0] - 2017-03-27
 ### Uncategorized
 - Add better error messages for when a transaction fails on approval
-- Allow sending to ENS names in send form on Ropsten.
+- Allow sending to ENS names in send form on TESTNET.
 - Added an address book functionality that remembers the last 15 unique addresses sent to.
 - Can now change network to custom RPC URL from lock screen.
 - Removed support for old, lightwallet based vault. Users who have not opened app in over a month will need to recover with their seed phrase. This will allow Firefox support sooner.
@@ -2008,7 +2008,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [2.14.1] - 2016-12-20
 ### Uncategorized
 - Update Coinbase info. and increase the buy amount to $15
-- Fixed ropsten transaction links
+- Fixed TESTNET transaction links
 - Temporarily disable extension reload detection causing infinite reload bug.
 - Implemented basic checking for valid RPC URIs.
 
@@ -2028,15 +2028,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Uncategorized
 - Improve gas calculation logic.
 - Default to Dapp-specified gas limits for transactions.
-- Ropsten networks now properly point to the faucet when attempting to buy ether.
-- Ropsten transactions now link to etherscan correctly.
+- TESTNET networks now properly point to the faucet when attempting to buy ether.
+- TESTNET transactions now link to etherscan correctly.
 
 ## [2.13.9] - 2016-11-21
 ### Uncategorized
-- Add support for the new, default Ropsten Test Network.
+- Add support for the new, default TESTNET Test Network.
 - Fix bug that would cause MetaMask to occasionally lose its StreamProvider connection and drop requests.
 - Fix bug that would cause the Custom RPC menu item to not appear when Localhost 8545 was selected.
-- Point ropsten faucet button to actual faucet.
+- Point TESTNET faucet button to actual faucet.
 - Phase out ethereumjs-util from our encryptor module.
 
 ## [2.13.8] - 2016-11-16

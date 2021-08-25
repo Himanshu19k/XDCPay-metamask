@@ -209,7 +209,7 @@
   "connectingToRinkeby": {
     "message": "রিঙ্কেবি টেস্ট নেটওয়ার্কের সাথে সংযোগ করছে"
   },
-  "connectingToRopsten": {
+  "connectingToTESTNET": {
     "message": "রপস্টেন টেস্ট নেটওয়ার্কের সাথে সংযোগ করছে"
   },
   "continueToWyre": {
@@ -820,7 +820,7 @@
   "rinkeby": {
     "message": "রিঙ্কেবি টেস্ট নেটওয়ার্ক"
   },
-  "ropsten": {
+  "TESTNET": {
     "message": "রোপস্টেন টেস্ট নেটওয়ার্ক"
   },
   "rpcUrl": {

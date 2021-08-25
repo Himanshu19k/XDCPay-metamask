@@ -9,8 +9,8 @@ import {
   NETWORK_TYPE_RPC,
   RINKEBY,
   RINKEBY_CHAIN_ID,
-  ROPSTEN,
-  ROPSTEN_CHAIN_ID,
+  TESTNET,
+  TESTNET_CHAIN_ID,
 } from '../../../shared/constants/network';
 
 const version = 52;
@@ -58,9 +58,9 @@ function transformState(state = {}) {
               newAccountTokens[address][MAINNET_CHAIN_ID] =
                 accountTokens[address][MAINNET];
               break;
-            case ROPSTEN:
-              newAccountTokens[address][ROPSTEN_CHAIN_ID] =
-                accountTokens[address][ROPSTEN];
+            case TESTNET:
+              newAccountTokens[address][TESTNET_CHAIN_ID] =
+                accountTokens[address][TESTNET];
               break;
             case RINKEBY:
               newAccountTokens[address][RINKEBY_CHAIN_ID] =
@@ -97,9 +97,9 @@ function transformState(state = {}) {
               newAccountHiddenTokens[address][MAINNET_CHAIN_ID] =
                 accountHiddenTokens[address][MAINNET];
               break;
-            case ROPSTEN:
-              newAccountHiddenTokens[address][ROPSTEN_CHAIN_ID] =
-                accountHiddenTokens[address][ROPSTEN];
+            case TESTNET:
+              newAccountHiddenTokens[address][TESTNET_CHAIN_ID] =
+                accountHiddenTokens[address][TESTNET];
               break;
             case RINKEBY:
               newAccountHiddenTokens[address][RINKEBY_CHAIN_ID] =

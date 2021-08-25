@@ -209,8 +209,8 @@
   "connectingToRinkeby": {
     "message": "Povezivanje na testnu mrežu Rinkeby"
   },
-  "connectingToRopsten": {
-    "message": "Povezivanje na testnu mrežu Ropsten"
+  "connectingToTESTNET": {
+    "message": "Povezivanje na testnu mrežu TESTNET"
   },
   "continueToWyre": {
     "message": "Nastavi na uslugu Wyre"
@@ -813,8 +813,8 @@
   "rinkeby": {
     "message": "Testna mreža Rinkeby"
   },
-  "ropsten": {
-    "message": "Testna mreža Ropsten"
+  "TESTNET": {
+    "message": "Testna mreža TESTNET"
   },
   "rpcUrl": {
     "message": "Novi URL RPC-a"

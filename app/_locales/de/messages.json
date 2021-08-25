@@ -200,8 +200,8 @@
   "connectingToRinkeby": {
     "message": " Verbinde zum Rinkeby Testnetzwerk"
   },
-  "connectingToRopsten": {
-    "message": " Verbinde zum Ropsten Testnetzwerk"
+  "connectingToTESTNET": {
+    "message": " Verbinde zum TESTNET Testnetzwerk"
   },
   "continueToWyre": {
     "message": "Weiter zu Wyre"
@@ -339,7 +339,7 @@
     "message": "Mehr hierzu."
   },
   "ensNotFoundOnCurrentNetwork": {
-    "message": "ENS-Name wurde im aktuellen Netzwerk nicht gefunden. Versuchen Sie, zum Ethereum Mainnet zu wechseln."
+    "message": "ENS-Name wurde im aktuellen Netzwerk nicht gefunden. Versuchen Sie, zum XDC Mainnet zu wechseln."
   },
   "ensRegistrationError": {
     "message": "Fehler bei der ENS-Namensregistrierung"
@@ -789,8 +789,8 @@
   "rinkeby": {
     "message": "Rinkeby Testnetzwerk"
   },
-  "ropsten": {
-    "message": "Ropsten Testnetzwerk"
+  "TESTNET": {
+    "message": "TESTNET Testnetzwerk"
   },
   "rpcUrl": {
     "message": "Neue RPC-URL"

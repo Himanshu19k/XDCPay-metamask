@@ -209,8 +209,8 @@
   "connectingToRinkeby": {
     "message": "Ühendamine Rinkeby testvõrguga"
   },
-  "connectingToRopsten": {
-    "message": "Ühendamine Ropsteni testvõrguga"
+  "connectingToTESTNET": {
+    "message": "Ühendamine TESTNETi testvõrguga"
   },
   "continueToWyre": {
     "message": "Ava Wyre"
@@ -810,8 +810,8 @@
   "rinkeby": {
     "message": "Rinkeby katsevõrk"
   },
-  "ropsten": {
-    "message": "Ropsteni testvõrk"
+  "TESTNET": {
+    "message": "TESTNETi testvõrk"
   },
   "rpcUrl": {
     "message": "Uus RPC URL"

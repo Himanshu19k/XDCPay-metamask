@@ -203,8 +203,8 @@
   "connectingToRinkeby": {
     "message": "Inaunganisha kwenye Mtandao wa Majaribio wa Rinkeby"
   },
-  "connectingToRopsten": {
-    "message": "Inaunganisha kwenye Mtandao wa Majaribio wa Ropsten"
+  "connectingToTESTNET": {
+    "message": "Inaunganisha kwenye Mtandao wa Majaribio wa TESTNET"
   },
   "continueToWyre": {
     "message": "Endelea kwenye Wyre"
@@ -798,8 +798,8 @@
   "rinkeby": {
     "message": "Mtandao wa Majaribio wa Rinkeby"
   },
-  "ropsten": {
-    "message": "Mtandao wa Majaribio wa Ropsten"
+  "TESTNET": {
+    "message": "Mtandao wa Majaribio wa TESTNET"
   },
   "rpcUrl": {
     "message": "RPC URL mpya"

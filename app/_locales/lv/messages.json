@@ -209,8 +209,8 @@
   "connectingToRinkeby": {
     "message": "Pieslēdzas Rinkeby testa tīklam"
   },
-  "connectingToRopsten": {
-    "message": "Pieslēdzas Ropsten testa tīklam"
+  "connectingToTESTNET": {
+    "message": "Pieslēdzas TESTNET testa tīklam"
   },
   "continueToWyre": {
     "message": "Pāriet uz Wyre"
@@ -816,8 +816,8 @@
   "rinkeby": {
     "message": "Rinkeby testa tīkls"
   },
-  "ropsten": {
-    "message": "Ropsten testa tīkls"
+  "TESTNET": {
+    "message": "TESTNET testa tīkls"
   },
   "rpcUrl": {
     "message": "Jauns RPC URL"

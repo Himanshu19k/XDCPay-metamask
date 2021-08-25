@@ -6,7 +6,7 @@ import {
   KOVAN_CHAIN_ID,
   MAINNET_CHAIN_ID,
   RINKEBY_CHAIN_ID,
-  ROPSTEN_CHAIN_ID,
+  TESTNET_CHAIN_ID,
 } from '../../../shared/constants/network';
 import { SECOND } from '../../../shared/constants/time';
 import getFetchWithTimeout from '../../../shared/modules/fetch-with-timeout';
@@ -80,7 +80,7 @@ export default async function getBuyEthUrl({ chainId, address, service }) {
     case 'transak':
       return createTransakUrl(address);
     case 'metamask-faucet':
-      return 'https://faucet.metamask.io/';
+      return 'http://faucet.apothem.network/';
     case 'rinkeby-faucet':
       return 'https://www.rinkeby.io/';
     case 'kovan-faucet':
@@ -98,7 +98,7 @@ function getDefaultServiceForChain(chainId) {
   switch (chainId) {
     case MAINNET_CHAIN_ID:
       return 'wyre';
-    case ROPSTEN_CHAIN_ID:
+    case TESTNET_CHAIN_ID:
       return 'metamask-faucet';
     case RINKEBY_CHAIN_ID:
       return 'rinkeby-faucet';

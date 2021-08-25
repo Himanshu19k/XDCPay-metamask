@@ -143,7 +143,7 @@ describe('NetworkController', function () {
       const tests = [
         {
           input: '3',
-          expected: 'Ropsten',
+          expected: 'TESTNET',
         },
         {
           input: '4',
@@ -155,7 +155,7 @@ describe('NetworkController', function () {
         },
         {
           input: '0x3',
-          expected: 'Ropsten',
+          expected: 'testnet',
         },
         {
           input: '0x4',
@@ -166,8 +166,8 @@ describe('NetworkController', function () {
           expected: 'Kovan',
         },
         {
-          input: 'ropsten',
-          expected: 'Ropsten',
+          input: 'TESTNET',
+          expected: 'TESTNET',
         },
         {
           input: 'rinkeby',
@@ -179,7 +179,7 @@ describe('NetworkController', function () {
         },
         {
           input: 'mainnet',
-          expected: 'Ethereum Mainnet',
+          expected: 'XinFin Mainnet',
         },
         {
           input: 'goerli',

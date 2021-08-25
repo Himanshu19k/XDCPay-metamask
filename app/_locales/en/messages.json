@@ -412,13 +412,13 @@
     "message": "Connecting to Kovan Test Network"
   },
   "connectingToMainnet": {
-    "message": "Connecting to Ethereum Mainnet"
+    "message": "Connecting to XDC Mainnet"
   },
   "connectingToRinkeby": {
     "message": "Connecting to Rinkeby Test Network"
   },
-  "connectingToRopsten": {
-    "message": "Connecting to Ropsten Test Network"
+  "connectingToTestnet": {
+    "message": "Connecting to Testnet Test Network"
   },
   "contactUs": {
     "message": "Contact us"
@@ -772,7 +772,7 @@
     "message": "Illegal Character for ENS."
   },
   "ensNotFoundOnCurrentNetwork": {
-    "message": "ENS name not found on the current network. Try switching to Ethereum Mainnet."
+    "message": "ENS name not found on the current network. Try switching to XDC Mainnet."
   },
   "ensNotSupportedOnNetwork": {
     "message": "Network does not support ENS"
@@ -1213,7 +1213,7 @@
     "message": "Lock time is too great"
   },
   "mainnet": {
-    "message": "Ethereum Mainnet"
+    "message": "XDC Mainnet"
   },
   "makeAnotherSwap": {
     "message": "Create a new swap"
@@ -1739,8 +1739,8 @@
   "rinkeby": {
     "message": "Rinkeby Test Network"
   },
-  "ropsten": {
-    "message": "Ropsten Test Network"
+  "TESTNET": {
+    "message": "TESTNET Test Network"
   },
   "rpcUrl": {
     "message": "New RPC URL"

@@ -82,7 +82,7 @@
   "connectingToRinkeby": {
     "message": "ரிங்கெப்ய டெஸ்ட் நெட்வொர்க்குடன் இணைக்கிறது"
   },
-  "connectingToRopsten": {
+  "connectingToTESTNET": {
     "message": "ரொப்ஸ்டென் டெஸ்ட் நெட்வொர்க்குடன் இணைக்கிறது"
   },
   "contractDeployment": {
@@ -402,7 +402,7 @@
   "rinkeby": {
     "message": "ரிங்கெப்ய டெஸ்ட் நெட்வொர்க்"
   },
-  "ropsten": {
+  "TESTNET": {
     "message": "ரொப்ஸ்டென் டெஸ்ட் நெட்வொர்க்"
   },
   "save": {

@@ -67,8 +67,8 @@
   "connectingToRinkeby": {
     "message": "Rinkeby Test Ağına bağlanıyor"
   },
-  "connectingToRopsten": {
-    "message": "Ropsten Test Ağına bağlanıyor"
+  "connectingToTESTNET": {
+    "message": "TESTNET Test Ağına bağlanıyor"
   },
   "contractDeployment": {
     "message": "Sözleşme kurulumu"
@@ -342,8 +342,8 @@
   "rinkeby": {
     "message": "Rinkeby Test Ağı"
   },
-  "ropsten": {
-    "message": "Ropsten Test Ağı"
+  "TESTNET": {
+    "message": "TESTNET Test Ağı"
   },
   "save": {
     "message": "Kaydet"

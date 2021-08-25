@@ -391,13 +391,13 @@
     "message": "Подключение к тестовой сети Kovan"
   },
   "connectingToMainnet": {
-    "message": "Подключение к сети Ethereum Mainnet"
+    "message": "Подключение к сети XDC Mainnet"
   },
   "connectingToRinkeby": {
     "message": "Подключение к тестовой сети Rinkeby"
   },
-  "connectingToRopsten": {
-    "message": "Подключение к тестовой сети Ropsten"
+  "connectingToTESTNET": {
+    "message": "Подключение к тестовой сети TESTNET"
   },
   "contactUs": {
     "message": "Свяжитесь с нами"
@@ -648,7 +648,7 @@
     "description": "$1 is the return value of eth_chainId from an RPC endpoint"
   },
   "ensNotFoundOnCurrentNetwork": {
-    "message": "Имя ENS не найдено в текущей сети. Попробуйте переключиться на сеть Ethereum Mainnet."
+    "message": "Имя ENS не найдено в текущей сети. Попробуйте переключиться на сеть XDC Mainnet."
   },
   "ensRegistrationError": {
     "message": "Ошибка при регистрации имени ENS"
@@ -1053,7 +1053,7 @@
     "message": "Время блокировки слишком велико"
   },
   "mainnet": {
-    "message": "Сеть Ethereum Mainnet"
+    "message": "Сеть XDC Mainnet"
   },
   "makeAnotherSwap": {
     "message": "Создать новый своп"
@@ -1551,8 +1551,8 @@
   "rinkeby": {
     "message": "Тестовая сеть Rinkeby"
   },
-  "ropsten": {
-    "message": "Тестовая сеть Ropsten"
+  "TESTNET": {
+    "message": "Тестовая сеть TESTNET"
   },
   "rpcUrl": {
     "message": "Новый URL RPC"

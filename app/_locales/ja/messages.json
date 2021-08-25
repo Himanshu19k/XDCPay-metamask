@@ -396,8 +396,8 @@
   "connectingToRinkeby": {
     "message": "Rinkeby テスト ネットワークへの接続"
   },
-  "connectingToRopsten": {
-    "message": "Ropsten テスト ネットワークへの接続"
+  "connectingToTESTNET": {
+    "message": "TESTNET テスト ネットワークへの接続"
   },
   "contactUs": {
     "message": "当社連絡先"
@@ -1551,8 +1551,8 @@
   "rinkeby": {
     "message": "Rinkeby テスト ネットワーク"
   },
-  "ropsten": {
-    "message": "Ropsten テスト ネットワーク"
+  "TESTNET": {
+    "message": "TESTNET テスト ネットワーク"
   },
   "rpcUrl": {
     "message": "新規 RPC URL"

@@ -4,7 +4,7 @@ import { ObservableStore } from '@metamask/obs-store';
 import contracts from '@metamask/contract-metadata';
 import BigNumber from 'bignumber.js';
 
-import { MAINNET, ROPSTEN } from '../../../shared/constants/network';
+import { MAINNET, TESTNET } from '../../../shared/constants/network';
 import DetectTokensController from './detect-tokens';
 import NetworkController from './network';
 import PreferencesController from './preferences';
@@ -74,7 +74,7 @@ describe('DetectTokensController', function () {
 
   it('should not check tokens while on test network', async function () {
     sandbox.useFakeTimers();
-    network.setProviderType(ROPSTEN);
+    network.setProviderType(TESTNET);
     const controller = new DetectTokensController({
       preferences,
       network,
